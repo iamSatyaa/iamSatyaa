@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexible Diet Plan</title>
+    <style>
+        /* CSS Reset (Optional) */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            /* Set background image with 10% transparency */
+            background-image: url("/img/bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: initial; /* Change background-attachment */
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #005792; /* Dark blue color for the heading */
+            background-color: #f0f0f0; /* Light gray background for h1 */
+            padding: 10px; /* Add padding to create a box */
+            border-radius: 10px; /* Add rounded corners */
+        }
+
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #009688; /* Teal color for subheadings */
+            background-color: #f0f0f0; /* Light gray background for h2 */
+            padding: 10px; /* Add padding to create a box */
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #ff5722; /* Orange color for strong text */
+        }
+
+        /* Style the options for each meal */
+        p strong:nth-child(2) {
+            color: #4caf50; /* Green color for Option 1 */
+        }
+
+        p strong:nth-child(5) {
+            color: #e91e63; /* Pink color for Option 2 */
+        }
+
+        /* Remove border for the last paragraph in each meal option */
+        p:nth-child(3n) {
+            border-top: none;
+        }
+
+        /* Style links (optional) */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily Diet Plan</h1>
+    <!-- Rest of the HTML content remains unchanged -->
+</body>
+</html>
